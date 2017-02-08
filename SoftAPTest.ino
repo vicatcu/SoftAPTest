@@ -141,6 +141,7 @@ void doSoftApModeConfigBehavior(void){
               "Connection: close\r\n"
               "Server: air quality egg\r\n"
               "Content-Length: %d\r\n"
+              "Access-Control-Allow-Origin: *\r\n"
               "\r\n"
               "%s";
               
